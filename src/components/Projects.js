@@ -1,18 +1,20 @@
 import React from 'react'
 import Project from './Project'
 import { ProjectsSection, ProjectsWrapper, } from './styles/ProjectsStyles'
-import kristianeboe from '../images/kristianeboe.jpg'
-import yaps from '../images/yaps.jpg'
-import linkedIn from '../images/linkedIn.jpg'
-import blunk from '../images/blunk.jpg'
+
 import coding from '../images/coding.jpg'
-import boostamins from '../images/boostamins.jpg'
+
+import dillonbaxendell from "../images/dillonprofilepic.jpeg"
+import me from "../images/me.JPG"
+import path from "../images/path.jpg"
+import pixels from "../images/pixels.jpeg"
+import ghostlight from "../images/ghostlight.jpeg"
 
 const projects = [
   {
-    title: 'YAPS.life',
-    description: 'A matchmaking system for roommates',
-    background:{ image: yaps, centering: 'center',},
+    title: 'Your Path',
+    description: 'lorem ipsum...',
+    background:{ image: path, centering: 'center',},
     link: 'https://yaps.life/',
   },
   {
@@ -22,29 +24,29 @@ const projects = [
     link: 'https://github.com/kristianeboe',
   },
   {
-    title: 'kristianeboe.me',
+    title: 'dillonbaxendell.me',
     description:
-      'My own little piece of the web. Travel blog and musings on leadership.',
-    background:{ image: kristianeboe, centering: 'center',},
+      'Come explore my portfolio and see my own little piece of the web.',
+    background:{ image: me, centering: 'center',},
     link: 'https://kristianeboe.me/',
   },
   {
     title: 'LinkedIn',
     description: 'Professional profile',
-    background:{ image: linkedIn, centering: 'top',},
-    link: 'https://www.linkedin.com/in/kristianeboe/',
+    background:{ image: dillonbaxendell, centering: 'top',},
+    link: 'https://www.linkedin.com/in/dillonbaxendell/',
   },
   {
-    title: 'Blunk',
-    description: 'Dating, redefined',
-    background:{ image: blunk, centering: 'center',},
+    title: 'Pixels',
+    description: 'a self-developed mood tracker app',
+    background:{ image: pixels, centering: 'center',},
     link: 'https://blunk-dev.firebaseapp.com',
   },
   {
-    title: 'Boostamins',
+    title: 'Theatre Projects',
     description:
-      'A hyper optimized webshop for vitamins and quality suppliments',
-    background:{ image: boostamins, centering: 'center',},
+      'Take a dive into ',
+    background:{ image: ghostlight, centering: 'center',},
     link: 'https://boostamins.firebaseapp.com',
   },
 ]
